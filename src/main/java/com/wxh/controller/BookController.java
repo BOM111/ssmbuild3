@@ -69,5 +69,6 @@ public class BookController {
         List<Books> book = bookService.queryByNmae(queryByNmae);
         model.addAttribute("list",book);
         System.out.println("查询结果： "+book);
+        System.out.println("版本2");
         return "allbook";
     }}
